@@ -1,9 +1,8 @@
 import streamlit as st
 import numpy as np # for working with arrays
 import pandas as pd # data processing and analysis (e.g. pd.read_csv)
-import seaborn as sns #visualisation
 import altair as alt #visualisation
-import matplotlib as plt #visualisation
+
 
 #enable altair to plot all the data
 alt.data_transformers.disable_max_rows()
